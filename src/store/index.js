@@ -16,7 +16,11 @@ export default createStore({
     },
     getters: {
         getCounterState(state) {
-            return state.counterState.counter
+            return state.counterState.counter;
+        },
+        getEmployeeState(state) {
+            return state.employeeState.employeeList;
         }
+
     }
 })
