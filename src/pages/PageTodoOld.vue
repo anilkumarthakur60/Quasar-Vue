@@ -4,7 +4,7 @@
       <q-item
         v-ripple
         v-for="task in tasks"
-        :key="task.id"
+        :key="task.ID"
         :class="task.completed ? 'bg-orange-1' : 'bg-green-1'"
         clickable
         @click="task.completed = !task.completed"
