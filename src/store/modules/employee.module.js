@@ -1,9 +1,9 @@
-import { EmployeeService } from '@/sevices/EmployeeService'
+import { EmployeeServices } from '@/sevices/EmployeeServices'
 export default {
     namespaced: true,
     state: {
         employeeList: {
-            employees: EmployeeService.getallEmployeeList
+            employees: EmployeeServices.getallEmployeeList
         }
     },
     mutations: {
