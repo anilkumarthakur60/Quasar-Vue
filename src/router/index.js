@@ -4,6 +4,7 @@ import Counter from "@/components/Counter"
 import Employee from "@/components/Employee"
 import UserList from "@/components/UserList"
 import vuexCounter from "@/components/vuex/VuexCounter"
+import VuexEmployee from "@/components/vuex/VuexEmployee"
 const routes = [{
         path: '/',
         name: 'Home',
@@ -23,6 +24,11 @@ const routes = [{
         path: '/employee',
         name: 'Employee',
         component: Employee
+    },
+    {
+        path: '/employee-vuex',
+        name: 'VuexEmployee',
+        component: VuexEmployee
     },
     {
         path: '/userlist',
