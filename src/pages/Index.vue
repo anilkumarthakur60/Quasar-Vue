@@ -84,7 +84,7 @@ export default {
   },
 
   mounted() {
-    console.log(this.$refs.messageInput);
+    // console.log(this.$refs.messageInput);
     this.$refs.messageInput.className = "bg-green";
   },
 };

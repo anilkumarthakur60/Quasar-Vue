@@ -14,6 +14,7 @@ import tasks from './store-tasks';
  * with the Store instance.
  */
 
+
 export default store(function( /* { ssrContext } */ ) {
     const Store = createStore({
         modules: {
