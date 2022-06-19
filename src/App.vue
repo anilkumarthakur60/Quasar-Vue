@@ -27,6 +27,11 @@
               >
             </li>
             <li class="nav-item">
+              <router-link class="nav-link" :to="{ name: 'vuexCounter' }"
+                >Vuex Counter</router-link
+              >
+            </li>
+            <li class="nav-item">
               <router-link class="nav-link" :to="{ name: 'Employee' }"
                 >Employee</router-link
               >
