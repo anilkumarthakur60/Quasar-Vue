@@ -42,47 +42,12 @@
 </template>
 
 <script>
+import { EmployeeServices } from "@/services/EmployeeServices";
 export default {
   name: "VuexEmployee",
   data() {
     return {
-      employees: [
-        {
-          id: 1,
-          name: "oilkjghf",
-          username: "poikjhgv",
-          email: "olkijhg@gmail.com",
-          isSelected: false,
-        },
-        {
-          id: 2,
-          name: "oilkjghf",
-          username: "poikjhgv",
-          email: "olkijhg@gmail.com",
-          isSelected: false,
-        },
-        {
-          id: 3,
-          name: "oilkjghf",
-          username: "poikjhgv",
-          email: "olkijhg@gmail.com",
-          isSelected: false,
-        },
-        {
-          id: 4,
-          name: "oilkjghf",
-          username: "poikjhgv",
-          email: "olkijhg@gmail.com",
-          isSelected: false,
-        },
-        {
-          id: 5,
-          name: "oilkjghf",
-          username: "poikjhgv",
-          email: "olkijhg@gmail.com",
-          isSelected: false,
-        },
-      ],
+      employees: EmployeeServices,
     };
   },
 
