@@ -9,5 +9,6 @@ const vegetable = [
     "radish3",
     "radish4",
 ];
+
 console.log([...fruits, vegetable]);
 console.log([...fruits, ...vegetable]);
