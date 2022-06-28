@@ -12,3 +12,18 @@ const vegetable = [
 
 console.log([...fruits, vegetable]);
 console.log([...fruits, ...vegetable]);
+
+
+const numbers = [
+    1, 2, 3, 4, 5
+];
+
+const square = numbers.map((number) => {
+    return number * number;
+})
+
+const squares = numbers.map((number) =>
+    number * number
+)
+
+console.log(squares);
